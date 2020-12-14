@@ -4,24 +4,29 @@
 | [code](https://github.com/ZhengZerong/DeepHuman) | [paper](https://arxiv.org/pdf/1903.06473.pdf) |
 |  ----  | ---- |
 #### 贡献
-1. 建立了一个基于真实世界的3D真人身体模型数据库-THUman，其中包含7000个模型。
+1. 建立了一个基于真实世界的3D真人模型数据库-THUman，其中包含7000个模型。
 2. 设计了一个通过输入单张真人图片输出3D预测模型的SOTA方法。
 
 #### 摘要
 作者们提出了一种image-guided volume-to-volume translation进行单图真人三维重建的CNN算法。<br>
-为了减少表面重建的模糊噪声，作者提出通过SMPL模型生成的密集语义作为输入。<br>
-（即神经网络的输入为图片与无背景的二维人体语义图）<br>
+为了减少表面重建的模糊噪声（包含不可见区域重建，指相机视角看不见的地方），作者提出通过SMPL模型生成的密集语义作为输入。<br>
+（即神经网络的输入为图片、无背景的二维人体语义图和语义volume）<br>
 这个网络的一个关键特征就是，通过空间特征变换，将不同尺寸的图像特征融合到3D空间中，有助于恢复平面几何的精确度。<br>
 (图像搭配语义图，由于语义图具有一定的梯度性，能够将3D模型表面恢复得更光滑平整，指网络结构图中橙+蓝+绿部分)<br>
-可视的平面细节通过一般精炼网络(Normal Refinement Network)进一步精炼, 可以与容积生成网络(Volume Generation Network)使用连接(concat)操作，使用我们提出的容积一般投影层(Volumetric Normal Projection Layer)。
-
-
+可视的平面(相机视角)细节通过一般细化网络(Normal Refinement Network,黄色部分)进一步细化, <br>
+使用我们提出的容积一般投影层(Volumetric Normal Projection Layer, 结尾最后交汇的箭头),与容积生成网络(Volume Generation Network, 指图中的蓝色和绿色的volume-to-volume translation network)使用连接(concat)操作，用于支持end-to-end的训练。
+还有贡献了一个三维基于真实世界的3D真人模型数据集-THUman。由于作者网络架构的设计与数据集的多样性，只需要给出单张图片，就能优于现在大多数的单图人体三维重建方法。
 
 #### 网络结构
 ![img.png](img/img.png)
 **Tips** <br>
-紫色箭头就是文章中描述的volume-to-normal部分
+紫色箭头就是文章中描述的volume-to-normal部分，三维投影到二维，然后与input的原图和语义map一起进入normal refinement network进行处理。
 
+#### 总结
+将三维人体重建任务分解为三个子任务：
+a）从输入图像进行参数化人体估计，
+b）从图像和估计的身体进行表面重建
+c）根据图像进行可见表面细节细化
 
 
 ### 2. PIFu
