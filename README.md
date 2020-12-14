@@ -4,6 +4,7 @@
 大多数现存的工作都在使用深度网络进行3D 数据采用体积网格或图像集合。
 ### 1. DeepHuman: 3D Human Reconstruction from a Single Image(ICCV 2019)
 | [code](https://github.com/ZhengZerong/DeepHuman) | [paper](http://www.liuyebin.com/deephuman/assets/DeepHuman.pdf) |
+|  ----  | ----  |
 **网络结构:**
 ![img.png](img/img.png)
 
@@ -36,7 +37,7 @@ PIFu：https://arxiv.org/pdf/1905.05172.pdf <br>
 
 ### 3. Convolutional Mesh Regression for Single-Image Human Shape Reconstruction
 | [code](https://github.com/nkolot/GraphCMR/) | [paper](https://arxiv.org/abs/1905.03244) |
-| :------:| :------: | :------: |
+|  ----  | ----  |
 
 
 
