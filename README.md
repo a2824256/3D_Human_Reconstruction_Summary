@@ -1,5 +1,5 @@
 # 单图人体三维重建资料汇总
-## 文献调研
+## 一、文献调研
 ### 1. DeepHuman: 3D Human Reconstruction from a Single Image(ICCV 2019)
 | [code](https://github.com/ZhengZerong/DeepHuman) | [paper](https://arxiv.org/pdf/1903.06473.pdf) |
 |  ----  | ---- |
@@ -26,7 +26,7 @@
 - GraphCMR网络结构
 ![网络结构](img/img_2.png)
 
-## 开源数据集
+## 二、开源数据集
 
 | Dataset | Method |
 |  ----  | ----  |
@@ -41,11 +41,11 @@
 
 
 
-## 常用数据集模型制作方法
+## 三、常用数据集模型制作方法
 1. 制作3D人偶模型
 2. 多角度图片合成
 
-## Comparison
+## 四、Comparison
 - BodyNet在上述三种方法中均被提及到，可视为baseline进行比较;
 - DeepHuman与GraphCMR在论文中均表示自己比HMR和BodyNet两种方法效果好,由于两篇论文评价指标不一样所以两个算法之间无法比较;
 - DeepHuman评价指标 Averaged 3D IoU, 测试数据集为THuman;
@@ -53,7 +53,7 @@
 - PIFu在论文中表示在RenderPeople和Buff数据集上比BodyNet等多种方法效果好(不含DeepHuman与GraphCMR),比较指标与上面两种方法也不一样;
 - 速度对比没有提及。
 
-## 深度学习框架
+## 五、深度学习框架
 | Method | DL Framework |
 | ---- | ---- |
 | DeepHuman | TensorFlow |
