@@ -7,7 +7,7 @@
 **code:** https://github.com/ZhengZerong/DeepHuman <br>
 **paper:** http://www.liuyebin.com/deephuman/assets/DeepHuman.pdf <br>
 **网络结构:**
-<img src="https://img-blog.csdnimg.cn/20190816153333876.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NTUzM2MA==,size_16,color_FFFFFF,t_70">
+![img.png](img/img.png)
 模块说明：图像特征编码（橙色），立体到立体转换网络（蓝色&绿色），正向投影网络（黄色）<br>
 训练输入：三维人体模型、RGB图片 <br>
 预测输入：RGB图片 <br>
@@ -24,7 +24,7 @@ https://github.com/shunsukesaito/PIFu <br>
 PIFuhd：https://arxiv.org/pdf/2004.00452.pdf <br>
 PIFu：https://arxiv.org/pdf/1905.05172.pdf <br>
 **PIFu网络结构**
-![网络结构](https://pic2.zhimg.com/80/v2-462f6f1415631ee7654d14e7c45e316d_720w.jpg)
+![网络结构](img/img_1.png)
 
 **使用的数据集**
 - [RenderPeople(Linux Only)](https://renderpeople.com/sample/free/rp_dennis_posed_004_OBJ.zip)
@@ -41,7 +41,7 @@ https://arxiv.org/abs/1905.03244
 THUman:https://github.com/ZhengZerong/DeepHuman/tree/master/THUmanDataset
 * PIFu使用：<br>
 RenderPeople(分收费和免费模型): https://renderpeople.com/free-3d-people/ <br>
-* 第三篇使用：<br>
+* 3.使用：<br>
 Mosh: http://mosh.is.tue.mpg.de/
 
 ## 数据集制作方法
