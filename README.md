@@ -30,9 +30,9 @@ PIFu：https://arxiv.org/pdf/1905.05172.pdf <br>
 - [RenderPeople(Linux Only)](https://renderpeople.com/sample/free/rp_dennis_posed_004_OBJ.zip)
 
 ### 3. Convolutional Mesh Regression for Single-Image Human Shape Reconstruction
-# code: **
-https://github.com/nkolot/GraphCMR/
-** paper ** 
+**code:**
+https://github.com/nkolot/GraphCMR/ <br>
+**paper** 
 https://arxiv.org/abs/1905.03244
 
 
