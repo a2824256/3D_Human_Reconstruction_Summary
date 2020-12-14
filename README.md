@@ -1,8 +1,9 @@
 # 单图人体三维重建资料汇总
 ## 文献调研
 ### 1. DeepHuman: 3D Human Reconstruction from a Single Image(ICCV 2019)
-| [code](https://github.com/ZhengZerong/DeepHuman) | [paper](http://www.liuyebin.com/deephuman/assets/DeepHuman.pdf) |
-|  ----  | ----  | 
+| [code](https://github.com/ZhengZerong/DeepHuman) | [paper](https://arxiv.org/pdf/1903.06473.pdf) |
+|  ----  | ---- |
+
 
 **网络结构:**
 ![img.png](img/img.png)
@@ -52,8 +53,8 @@
 - PIFu在论文中表示在RenderPeople和Buff数据集上比BodyNet等多种方法效果好(不含DeepHuman与GraphCMR),比较指标与上面两种方法也不一样;
 - 速度对比没有提及。
 
-## 深度学习框架平台
-| Method | Framework |
+## 深度学习框架
+| Method | DL Framework |
 | ---- | ---- |
 | DeepHuman | TensorFlow |
 | PIFu | PyTorch |
