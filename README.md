@@ -35,8 +35,8 @@
 | [Human3.6M](http://vision.imar.ro/human3.6m/description.php) | GraphCMR | 
 | [Mosh](http://mosh.is.tue.mpg.de/) | GraphCMR | 
 | [UP-3D](http://files.is.tuebingen.mpg.de/classner/up/) | GraphCMR | 
-| [DensePose COCO](https://github.com/facebookresearch/DensePose) | Other |
-| [3DPW](http://virtualhumans.mpi-inf.mpg.de/3DPW/) | Other |
+| [DensePose COCO](https://github.com/facebookresearch/DensePose) |  |
+| [3DPW](http://virtualhumans.mpi-inf.mpg.de/3DPW/) |  |
 
 
 
@@ -45,12 +45,12 @@
 2. 多角度图片合成
 
 ## Comparison
-BodyNet在上述三种方法中均被提及到，可视为baseline进行比较<br>
-DeepHuman与GraphCMR在论文中均表示自己比HMR和BodyNet两种方法效果好,由于两篇论文评价指标不一样所以两个算法之间无法比较 <br>
-DeepHuman评价指标 Averaged 3D IoU, 测试数据集为THuman <br>
-GraphCMR评价指标 MPJPE与Reconst. Error, 测试数据集为Human3.6M <br>
-PIFu在论文中表示在RenderPeople和Buff数据集上比BodyNet等多种方法效果好(不含DeepHuman与GraphCMR),比较指标也不一样 <br>
-速度对比没有提及。
+- BodyNet在上述三种方法中均被提及到，可视为baseline进行比较;
+- DeepHuman与GraphCMR在论文中均表示自己比HMR和BodyNet两种方法效果好,由于两篇论文评价指标不一样所以两个算法之间无法比较;
+- DeepHuman评价指标 Averaged 3D IoU, 测试数据集为THuman;
+- GraphCMR评价指标 MPJPE与Reconst. Error, 测试数据集为Human3.6M;
+- PIFu在论文中表示在RenderPeople和Buff数据集上比BodyNet等多种方法效果好(不含DeepHuman与GraphCMR),比较指标与上面两种方法也不一样;
+- 速度对比没有提及。
 
 ## 深度学习框架平台
 | Method | Framework |
