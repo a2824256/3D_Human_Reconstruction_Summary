@@ -40,10 +40,13 @@
 |  ----  | ----  |
 | DeepHuman | [THUman](https://github.com/ZhengZerong/DeepHuman/tree/master/THUmanDataset) |
 | PIFu | [RenderPeople](https://renderpeople.com/free-3d-people/)|
-| GraphCMR | [Mosh](http://mosh.is.tue.mpg.de/) |
+| GraphCMR | [Mosh](http://mosh.is.tue.mpg.de/), [Human3.6M](http://vision.imar.ro/human3.6m/description.php), [UP-3D](http://files.is.tuebingen.mpg.de/classner/up/) |
+| Other | [DensePose COCO](https://github.com/facebookresearch/DensePose) |
 
 
-## 数据集制作方法
+## 常用数据集模型制作方法
+1. 制作3D人偶模型
+2. 多摄像头真人合成
 
 
 ## 关键词
