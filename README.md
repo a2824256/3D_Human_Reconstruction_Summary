@@ -22,7 +22,7 @@
 
 | version | code | paper | framework |
 |  ----  | ----  | ---- | ---- |
-| PIFu(ICCV 2019) | [code](https://github.com/shunsukesaito/PIFu) | [PIFu: Pixel-AlignedImplicitFunctionfor High-Resolution Clothed Human Digitization ](https://arxiv.org/pdf/1905.05172.pdf) | PyTorch |
+| PIFu(ICCV 2019) | [code](https://github.com/shunsukesaito/PIFu) | [PIFu: Pixel-Aligned Implicit Function for High-Resolution Clothed Human Digitization ](https://arxiv.org/pdf/1905.05172.pdf) | PyTorch |
 | PIFuhd(CVPR 2020) | [code](https://github.com/facebookresearch/pifuhd) | [Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization](https://arxiv.org/pdf/2004.00452.pdf) | PyTorch |
 
 - PIFu网络结构
