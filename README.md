@@ -47,10 +47,12 @@
 ## Comparison
 BodyNet在上述三种方法中均被提及到，可视为baseline进行比较<br>
 DeepHuman与GraphCMR在论文中均表示自己比HMR和BodyNet两种方法效果好,由于两篇论文评价指标不一样所以两个算法之间无法比较 <br>
-DeepHuman评价指标 Averaged 3D IoU <br>
-GraphCMR评价指标 MPJPE与Reconst. Error, 对比数据集Human3.6M <br>
+DeepHuman评价指标 Averaged 3D IoU, 测试数据集为THuman <br>
+GraphCMR评价指标 MPJPE与Reconst. Error, 测试数据集为Human3.6M <br>
 PIFu在论文中表示在RenderPeople和Buff数据集上比BodyNet等多种方法效果好(不含DeepHuman与GraphCMR),比较指标也不一样 <br>
+速度对比没有提及。
 
+## 深度学习框架平台
 | Method | Framework |
 | ---- | ---- |
 | DeepHuman | TensorFlow |
