@@ -28,11 +28,20 @@ c）根据图像进行可见表面细节细化 <br>
 
 
 ### 2. PIFu
+#### PIFu摘要
+作者们介绍了Pixel-aligned Implicit Function (PIFu), 一种2D图片与其对应3D物体的全局信息进行局部像素对其的隐式表达方法。
+PIFu是一种能够从单图或多图预测目标3D表面和材质的针对数字化高细节化穿着人体的end-to-end的深度学习方法。
+高度复杂的形状，例如：头发、衣服，以及他们的变化和形变都可以统一数字化。对比现在已有的深度学习方法，PIFu
 
 | Version | Code | Paper | 
 |  ----  | ----  | ---- | 
 | PIFu(ICCV 2019) | [code](https://github.com/shunsukesaito/PIFu) | [PIFu: Pixel-Aligned Implicit Function for High-Resolution Clothed Human Digitization ](https://arxiv.org/pdf/1905.05172.pdf) | 
 | PIFuhd(CVPR 2020) | [code](https://github.com/facebookresearch/pifuhd) | [Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization](https://arxiv.org/pdf/2004.00452.pdf) | 
+
+#### PIFu-摘要
+
+
+#### PIFuhd-摘要
 
 - PIFu网络结构
 ![网络结构](img/img_1.png)
