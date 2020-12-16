@@ -3,6 +3,7 @@
 ### 1. DeepHuman: 3D Human Reconstruction from a Single Image(ICCV 2019)
 | [code](https://github.com/ZhengZerong/DeepHuman) | [paper](https://arxiv.org/pdf/1903.06473.pdf) |
 |  ----  | ---- |
+
 #### 贡献
 1. 建立了一个基于真实世界的3D真人模型数据库-THUman，其中包含7000个模型。
 2. 设计了一个通过输入单张真人图片输出3D预测模型的SOTA方法。
@@ -30,7 +31,7 @@ c）根据图像进行可见表面细节细化 <br>
 ### 2. PIFu
 #### PIFu贡献
 1. 目前唯一支持表面材料预测的深度学习方法
-2. 
+
 #### PIFu摘要
 作者们介绍了Pixel-aligned Implicit Function (PIFu), 一种2D图片与其对应3D物体的全局信息进行局部像素对其的隐式表达方法。
 PIFu是一种能够从单图或多图预测目标3D表面和材质的针对数字化高细节化穿着人体的end-to-end的深度学习方法。
@@ -75,7 +76,7 @@ PIFu是一种能够从单图或多图预测目标3D表面和材质的针对数�
 
 ## 三、常用数据集模型制作方法
 1. 制作3D人偶模型
-2. 多角度图片合成
+2. 多角度关键点对应图片合成
 
 ## 四、Comparison
 - BodyNet在上述三种方法中均被提及到，可视为baseline进行比较;
@@ -98,3 +99,6 @@ PIFu是一种能够从单图或多图预测目标3D表面和材质的针对数�
 | SMPL | Skinned Multi-Person Linear model, 一种参数化人体模型。 该方法中β和θ是其中的输入参数，其中β代表是个人体高矮胖瘦、头身比等比例的10个参数，θ是代表人体整体运动位姿和24个关节相对角度的75个参数。 |
 | MPJPE | Mean Per Joint Postion Error 3D姿态估计常用评价指标，预测关键点和groundtruth之间的平均欧式距离 |
 | Reconst. Error | 重建误差 |
+
+## 问题汇总
+1. DeepHuman暂时无法测试,需要修改服务器gcc和g++版本低于8.0,服务器当前版本9.3.0
