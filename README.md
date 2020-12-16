@@ -104,8 +104,8 @@ PIFu是一种能够从单图或多图预测目标3D表面和材质的针对数�
 ### PIFu - [colab](https://colab.research.google.com/drive/1GFSsqP2BWz4gtq0e-nki00ZHSirXwFyY#scrollTo=5995t2PnQTmG)
 - 工具
 
-| [在线photoshop](https://www.tuyitu.com/photoshop/) | [在线去人像背景](https://www.remove.bg/zh/) | [自制无背景png转8位mask图python脚本](tools/png2mask.py) |
-| ---- | ---- | ---- |
+| [在线photoshop](https://www.tuyitu.com/photoshop/) | [在线去人像背景](https://www.remove.bg/zh/) | [自制无背景png转8位mask图python脚本](tools/png2mask.py) | [meshlab](https://www.meshlab.net/) |
+| ---- | ---- | ---- | ---- |
 
 - 输入要求
 1. 512x512输入尺寸，没有自带resize
