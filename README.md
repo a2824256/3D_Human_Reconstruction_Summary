@@ -104,7 +104,7 @@ PIFu是一种能够从单图或多图预测目标3D表面和材质的针对数�
 ### PIFu - [colab](https://colab.research.google.com/drive/1GFSsqP2BWz4gtq0e-nki00ZHSirXwFyY#scrollTo=5995t2PnQTmG)
 - 工具
 
-| [在线photoshop](https://www.tuyitu.com/photoshop/) | [在线去人像背景](https://www.remove.bg/zh/) | [无背景png转8位mask图](tools/png2mask.py) |
+| [在线photoshop](https://www.tuyitu.com/photoshop/) | [在线去人像背景](https://www.remove.bg/zh/) | [自制无背景png转8位mask图python脚本](tools/png2mask.py) |
 | ---- | ---- | ---- |
 
 - 输入要求
@@ -113,11 +113,11 @@ PIFu是一种能够从单图或多图预测目标3D表面和材质的针对数�
 
 - 测试效果
 
-| 体姿 | 原图 | 测试结果 |
-| ---- | ---- | ---- |
-| 正面 | ![原图](img/PIFu/img2.png) | ![官方测试效果](img/PIFu/img.png)|
-| 平躺（脚下方视角带一点倾斜角度） | ![原图2](img/PIFu/img4.png) | ![失败1](img/PIFu/失败1mesh.png) |
-| 平躺（侧面） | ![原图3](img/PIFu/img5.png) | ![失败2](img/PIFu/失败2mesh.png) |
+| 体姿 | 原图 | 测试效果 | 结果 |
+| ---- | ---- | ---- | ---- |
+| 正面 | ![原图](img/PIFu/img2.png) | ![官方测试效果](img/PIFu/img.png)| 模型完整 |
+| 平躺（脚下方视角带一点倾斜角度） | ![原图2](img/PIFu/img4.png) | ![失败1](img/PIFu/失败1mesh.png) | 头部缺失，是否数据集问题？待测试 |
+| 平躺（侧面） | ![原图3](img/PIFu/img5.png) | ![失败2](img/PIFu/失败2mesh.png) | 侧面缺失，是否数据集问题？待测试 |
 
 ## 问题汇总
 1. DeepHuman暂时无法测试,需要修改服务器gcc和g++版本低于8.0,服务器当前版本9.3.0
