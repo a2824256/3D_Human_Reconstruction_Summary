@@ -100,6 +100,25 @@ PIFu是一种能够从单图或多图预测目标3D表面和材质的针对数�
 | MPJPE | Mean Per Joint Postion Error 3D姿态估计常用评价指标，预测关键点和groundtruth之间的平均欧式距离 |
 | Reconst. Error | 重建误差 |
 
+## 测试汇总
+### PIFu - [colab](https://colab.research.google.com/drive/1GFSsqP2BWz4gtq0e-nki00ZHSirXwFyY#scrollTo=5995t2PnQTmG)
+- 工具
+
+| [在线photoshop](https://www.tuyitu.com/photoshop/) | [在线去人像背景](https://www.remove.bg/zh/) |
+| ---- | ---- |
+
+- 输入要求
+1. 512x512输入尺寸，没有自带resize
+2. 需要无背景或者黑色背景原图(32位) + 白色黑底mask图片(8位)
+
+- 测试效果
+
+| 体姿 | 原图 | 测试结果 |
+| ---- | ---- | ---- |
+| 正面 | ![原图](img/PIFu/img2.png) | ![官方测试效果](img/PIFu/img.png)|
+| 平躺（脚下方视角带一点倾斜角度） | ![原图2](img/PIFu/img4.png) | ![失败1](img/PIFu/失败1mesh.png) |
+| 平躺（侧面） | ![原图3](img/PIFu/img5.png) | ![失败2](img/PIFu/失败2mesh.png) |
+
 ## 问题汇总
 1. DeepHuman暂时无法测试,需要修改服务器gcc和g++版本低于8.0,服务器当前版本9.3.0
-2. PIFu需要移除背景的人像图
+2. PIFu需要移除背景的人像图,
